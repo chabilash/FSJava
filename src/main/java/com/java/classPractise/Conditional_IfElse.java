@@ -2,7 +2,7 @@ package com.java.classPractise;
 
 public class Conditional_IfElse {
     public static void main(String[] args) {
-       String status = getDetails(-1,"male");
+       String status = getDetails(35,"male");
         System.out.println(status);
     }
 
@@ -22,7 +22,7 @@ public class Conditional_IfElse {
                 status = "woman";
             }
         }
-        else if(age > 60 ){
+        else if(age >= 60 ){
             if(gender == "male" || gender == "female"){
                 status = "Senior Citizen";
             }
