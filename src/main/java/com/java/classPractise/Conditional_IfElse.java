@@ -2,7 +2,7 @@ package com.java.classPractise;
 
 public class Conditional_IfElse {
     public static void main(String[] args) {
-       String status = getDetails(35,"male");
+       String status = getDetails(35,"female");
         System.out.println(status);
     }
 
@@ -28,7 +28,7 @@ public class Conditional_IfElse {
             }
         }
         else {
-            status = "Age should be always Positive Number";
+            status = "Age & Gender are not VALID";
         }
 
         return status;
