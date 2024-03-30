@@ -28,7 +28,7 @@ public class Conditional_IfElse {
             }
         }
         else {
-            status = "Age & Gender are not VALID";
+            status = "Age AND/OR Gender are not VALID";
         }
 
         return status;
